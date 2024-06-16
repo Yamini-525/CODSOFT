@@ -1,0 +1,156 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+nav ul li a {
+  color: hsl(210, 20%, 84%);
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+nav {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(215, 19, 19, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navlinks {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+.nav__logo img {
+  max-width: 70px;
+  position: absolute;
+  left: 20px;
+  margin-top: 15px;
+}
+.login {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+  position: absolute;
+  right: 10px;
+  margin-top: 15px;
+}
+
+.login:hover {
+  background-color: blue;
+}
+
+.login span {
+  padding: 5px 8px;
+  font-size: 1.5rem;
+  color: black;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: url("/Task2/picture.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.content {
+  text-align: left;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.container__right {
+  min-height: 500px;
+  padding-top: 300px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.container__right img {
+  display: block;
+  border-radius: 50%;
+}
+.container__right .second {
+  position: absolute;
+  top: 460px;
+  left: 250px;
+}
+.container__right .third {
+  position: absolute;
+  bottom: 520px;
+  left: 260px;
+}
+
+.btn {
+  margin-bottom: 1rem;
+  min-width: 120px;
+  padding: 20px;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.action__btns button:hover {
+  color: blue;
+}
+
+.primary__btn {
+  margin-left: 4rem;
+  margin-right: 1rem;
+  color: white;
+  background-color: black;
+}
+.secondary__btn {
+  margin-right: 1rem;
+  color: white;
+  background-color: black;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+.socials span {
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socials span:hover {
+  color: blue;
+}
+.socials {
+  justify-content: center;
+}
