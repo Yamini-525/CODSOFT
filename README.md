@@ -1,6 +1,7 @@
 CODSOFT INTERNSHIP PROJECTS
 
 Introduction
+
 Welcome to my CodSoft Internship Projects repository! This repository contains the projects I completed as part of my internship with CodSoft. During this internship, I worked on developing a personal portfolio, a landing page, and a calculator using HTML, CSS, and JavaScript. This README file provides an overview of the projects, the skills I developed, and how to run the projects locally.
 
 SKILLS DEVELOPED
@@ -8,9 +9,13 @@ SKILLS DEVELOPED
 During the CodSoft internship, I developed and honed the following skills:
 
 -> Web development using HTML, CSS, and JavaScript
+
 -> Responsive design and mobile-first development
+
 -> UI/UX design principles
+
 -> Project planning and execution
+
 -> Version control using Git and GitHub
 
 CONCLUSION
